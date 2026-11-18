@@ -85,4 +85,3 @@ Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve 
 * **Versiyon Kontrolü:** Git, GitHub
 
 ---
-*Ölçeklenebilir backend ve yapay zeka sistemleri için veritabanı yönetiminde sağlam bir temel oluşturuyoruz.*
