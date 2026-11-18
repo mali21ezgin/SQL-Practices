@@ -8,7 +8,7 @@
 
 ## <a id="english"></a>🇬🇧 English
 
-This repository contains structured SQL exercises, data manipulation practices, and relational database management scripts implemented in Microsoft SQL Server (SSMS) using T-SQL, focused on building robust backend data foundations.
+This repository contains structured SQL exercises, data manipulation practices, and relational database management scripts implemented in Microsoft SQL Server (SSMS) using T-SQL.
 
 ### 📂 Repository Structure
 
@@ -21,13 +21,10 @@ This repository contains structured SQL exercises, data manipulation practices, 
 - **Version Control:** Git, GitHub, GitHub Desktop
 
 ---
-*Bridging database fundamentals with backend development to build scalable, data-driven systems.*
-
----
 
 ## <a id="türkçe"></a>🇹🇷 Türkçe
 
-Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmiş yapılandırılmış SQL egzersizleri, veri manipülasyon pratikleri ve ilişkisel veritabanı yönetim betikleri içermekte olup, sağlam backend veri temelleri oluşturmayı amaçlamaktadır.
+Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmiş yapılandırılmış SQL egzersizleri, veri manipülasyon pratikleri ve ilişkisel veritabanı yönetim betikleri içermektedir.
 
 ### 📂 Depo Yapısı
 
@@ -38,6 +35,3 @@ Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmi
 - **Ortam:** SQL Server Management Studio (SSMS)
 - **Sorgu Dili:** T-SQL (Transact-SQL)
 - **Versiyon Kontrolü:** Git, GitHub, GitHub Desktop
-
----
-*Ölçeklenebilir, veri odaklı sistemler inşa etmek için veritabanı temellerini backend geliştirme ile buluşturuyoruz.*
