@@ -179,4 +179,3 @@ Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve 
 - **Sorgu Dili:** T-SQL (Transact-SQL)
 - **Veri Aktarımı:** Python (`pandas`, `SQLAlchemy`, `pyodbc`)
 - **Versiyon Kontrolü:** Git, GitHub
-```[cite: 19, 20, 21]
