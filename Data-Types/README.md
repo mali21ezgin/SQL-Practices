@@ -13,7 +13,7 @@ This repository contains structured SQL exercises, data manipulation practices, 
 ### 📂 Repository Structure
 
 - **`Day-04-Basic-Commands/`**: Fundamental DML operations including database creation (`CREATE DATABASE`, `USE`), table design with `IDENTITY` primary keys, `INSERT`, `UPDATE`, `DELETE`, and `TRUNCATE` operations, alongside conditional filtering (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), distinct records (`DISTINCT`), and sorting (`ORDER BY`, `TOP / PERCENT`).
-- **`Data-Types/`**: Superstore Sales & Operations Analysis project using the Kaggle Sales Forecasting dataset (`train.csv`, 9,800 rows) ingested into SQL Server (`ETRADE3.dbo.RAW_SUPERSTORE`) via Python (`pandas`, `SQLAlchemy`, `pyodbc`) with `app.py` and queried via `data-types.sql`, covering `CONVERT` date parsing, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP`, and `WHERE` vs. `HAVING` filtering.
+- **`Data-Types/`**: Superstore Sales & Operations Analysis project using the [Kaggle Sales Forecasting Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (`train.csv`, 9,800 rows; not included in the repository) ingested into SQL Server (`ETRADE3.dbo.RAW_SUPERSTORE`) via Python (`pandas`, `SQLAlchemy`, `pyodbc`) with `app.py` and queried via `data-types.sql`, covering `CONVERT` date parsing, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP`, and `WHERE` vs. `HAVING` filtering.
 
 ### 📝 Project Solutions & Evaluation Guide
 
@@ -42,7 +42,7 @@ Below is the structured overview of the practical SQL tasks completed in this se
 
 #### Data-Types — Superstore Sales & Operations Analysis
 
-- **Dataset & Ingestion (`app.py`):** Loaded `train.csv` (9,800 rows) from the Kaggle Sales Forecasting dataset, normalized column names to uppercase snake_case, and transferred data into `ETRADE3.dbo.RAW_SUPERSTORE` (`localhost\SQLEXPRESS`) using `pandas` and `SQLAlchemy` (`fast_executemany=True`). SQL queries are maintained in [`data-types.sql`](./data-types.sql).
+- **Dataset & Ingestion (`app.py` & `data-types.sql`):** Downloaded `train.csv` (9,800 rows) from the [Kaggle Sales Forecasting Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (excluded from the repository; place `train.csv` in the working directory before running `app.py`), normalized column names to uppercase snake_case, and transferred data into `ETRADE3.dbo.RAW_SUPERSTORE` (`localhost\SQLEXPRESS`) using `pandas` and `SQLAlchemy` (`fast_executemany=True`). SQL queries are maintained in [`data-types.sql`](./data-types.sql).
 
   ![Ingestion Console Output](./images/output.png)
 
@@ -101,7 +101,7 @@ Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmi
 ### 📂 Depo Yapısı
 
 - **`Day-04-Basic-Commands/`**: Veritabanı oluşturma (`CREATE DATABASE`, `USE`), `IDENTITY` birincil anahtarları ile tablo tasarımı, `INSERT`, `UPDATE`, `DELETE` ve `TRUNCATE` işlemlerini içeren temel DML operasyonları; koşullu filtreleme (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), tekilleştirme (`DISTINCT`) ve sıralama (`ORDER BY`, `TOP / PERCENT`) çalışmaları.
-- **`Data-Types/`**: Kaggle Sales Forecasting veri seti (`train.csv`, 9.800 satır) kullanılarak hazırlanan Superstore Satış ve Operasyon Analizi projesi; `app.py` (`pandas`, `SQLAlchemy`, `pyodbc`) ile verilerin SQL Server'a (`ETRADE3.dbo.RAW_SUPERSTORE`) aktarılması, `data-types.sql` sorgu dosyası ve `CONVERT`, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP` ile `WHERE` / `HAVING` sorgularını kapsar.
+- **`Data-Types/`**: [Kaggle Sales Forecasting Veri Seti](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (`train.csv`, 9.800 satır; repoda yer almaz) kullanılarak hazırlanan Superstore Satış ve Operasyon Analizi projesi; `app.py` (`pandas`, `SQLAlchemy`, `pyodbc`) ile verilerin SQL Server'a (`ETRADE3.dbo.RAW_SUPERSTORE`) aktarılması, `data-types.sql` sorgu dosyası ve `CONVERT`, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP` ile `WHERE` / `HAVING` sorgularını kapsar.
 
 ### 📝 Proje Çözümleri ve Değerlendirme Rehberi
 
@@ -130,7 +130,7 @@ Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve 
 
 #### Data-Types — Superstore Satış ve Operasyon Analizi
 
-- **Veri Seti ve Aktarım (`app.py` & `data-types.sql`):** Kaggle Sales Forecasting veri setindeki `train.csv` (9.800 satır) dosyası okundu, sütun adları büyük harf ve alt çizgi formatına çevrildi ve `pandas` + `SQLAlchemy` (`fast_executemany=True`) ile `ETRADE3.dbo.RAW_SUPERSTORE` (`localhost\SQLEXPRESS`) tablosuna aktarıldı. Tüm analitik T-SQL sorguları [`data-types.sql`](./data-types.sql) dosyasında yer alır.
+- **Veri Seti ve Aktarım (`app.py` & `data-types.sql`):** [Kaggle Sales Forecasting Veri Seti](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) üzerindeki `train.csv` (9.800 satır) dosyası repoya dahil edilmemiş olup, çalıştırmadan önce çalışma dizinine indirip koymalısın. Sütun adları büyük harf ve alt çizgi formatına çevrildi ve `pandas` + `SQLAlchemy` (`fast_executemany=True`) ile `ETRADE3.dbo.RAW_SUPERSTORE` (`localhost\SQLEXPRESS`) tablosuna aktarıldı. Tüm analitik T-SQL sorguları [`data-types.sql`](./data-types.sql) dosyasında yer alır.
 
   ![Veri Aktarımı Konsol Çıktısı](./images/output.png)
 
