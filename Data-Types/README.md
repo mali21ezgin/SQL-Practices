@@ -58,12 +58,12 @@ Below is the structured overview of the practical SQL tasks completed in this se
 4. **Shipping Duration Calculation (Question 4)**
 - **Status:** Complete. Calculated `KARGO_GUN` via `DATEDIFF(DAY, ORDER_DATE_CLEAN, SHIP_DATE_CLEAN)` and retrieved the top 10 longest shipping records (`ORDER BY KARGO_GUN DESC`).
 
-  ![Question 4 - Shipping Duration](./Data-Types/images/question-4.png)
+  ![Question 4 - Shipping Duration](./Data-Types/images/question_4.png)
 
 5. **Top Cities by Revenue (Question 5)**
 - **Status:** Complete. Listed the top 5 cities by `SUM(SALES)` alongside `COUNT(DISTINCT CUSTOMER_ID)` and total row count (`COUNT(*)`), led by New York City (`252,462.547`, 349 unique customers, 891 rows) and Los Angeles (`173,420.181`, 300 unique customers, 728 rows).
 
-  ![Question 5 - Top 5 Cities](./Data-Types/images/question-5.png)
+  ![Question 5 - Top 5 Cities](./Data-Types/images/question_5.png)
 
 6. **January City Breakdown (Question 6)**
 - **Status:** Complete. Filtered `MONTH_NAME = '01.OCAK'` and grouped by `CITY` to report unique orders (`COUNT(DISTINCT ORDER_ID)`), unique customers (`COUNT(DISTINCT CUSTOMER_ID)`), and row counts (`COUNT(*)`).
@@ -74,7 +74,7 @@ Below is the structured overview of the practical SQL tasks completed in this se
 8. **Monthly Segment Trend (Question 8)**
 - **Status:** Complete. Grouped by `MONTH_NAME` and `SEGMENT` (`Consumer`, `Corporate`, `Home Office`) to calculate `SUM(SALES)` ordered by month label.
 
-  ![Question 8 - Monthly Segment Trend](./Data-Types/images/question-8.png)
+  ![Question 8 - Monthly Segment Trend](./Data-Types/images/question_8.png)
 
 9. **Row-Level Filtering with WHERE (Question 9)**
 - **Status:** Complete. Applied `WHERE SALES > 1000` prior to aggregation to compute city-level sales totals for high-value line items.
@@ -82,7 +82,7 @@ Below is the structured overview of the practical SQL tasks completed in this se
 10. **Post-Aggregation Filtering with HAVING (Question 10)**
 - **Status:** Complete. Grouped by `CITY` and applied `HAVING SUM(SALES) > 100000 AND COUNT(DISTINCT CUSTOMER_ID) > 10`, sorting by total sales descending (returning the top 5 cities above the 100k revenue threshold).
 
-  ![Question 10 - HAVING Filter](./Data-Types/images/question-10.png)
+  ![Question 10 - HAVING Filter](./Data-Types/images/question_10.png)
 
 ### 🛠 Tech Stack & Tools
 
@@ -146,12 +146,12 @@ Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve 
 4. **Kargo Süresi Hesaplama (Soru 4)**
 - **Durum:** Tamamlandı. `DATEDIFF(DAY, ORDER_DATE_CLEAN, SHIP_DATE_CLEAN)` ile `KARGO_GUN` hesaplandı ve en uzun kargo süresine sahip ilk 10 kayıt (`ORDER BY KARGO_GUN DESC`) listelendi.
 
-  ![Soru 4 - Kargo Süresi](./Data-Types/images/question-4.png)
+  ![Soru 4 - Kargo Süresi](./Data-Types/images/question_4.png)
 
 5. **Ciroya Göre İlk 5 Şehir (Soru 5)**
 - **Durum:** Tamamlandı. `SUM(SALES)` bazında ilk 5 şehir; tekil müşteri (`COUNT(DISTINCT CUSTOMER_ID)`) ve satır sayısı (`COUNT(*)`) ile listelendi (örneğin New York City: `252462,547` ciro, `349` tekil müşteri, `891` satır).
 
-  ![Soru 5 - Ciroya Göre İlk 5 Şehir](./Data-Types/images/question-5.png)
+  ![Soru 5 - Ciroya Göre İlk 5 Şehir](./Data-Types/images/question_5.png)
 
 6. **Ocak Ayı Şehir Kırılımı (Soru 6)**
 - **Durum:** Tamamlandı. `MONTH_NAME = '01.OCAK'` filtresiyle şehirlere göre tekil sipariş (`COUNT(DISTINCT ORDER_ID)`), tekil müşteri (`COUNT(DISTINCT CUSTOMER_ID)`) ve satır sayıları (`COUNT(*)`) getirildi.
@@ -162,7 +162,7 @@ Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve 
 8. **Aylık Segment Trendi (Soru 8)**
 - **Durum:** Tamamlandı. `MONTH_NAME` ve `SEGMENT` (`Consumer`, `Corporate`, `Home Office`) kırılımında toplam satışlar hesaplanıp ay adına göre sıralandı.
 
-  ![Soru 8 - Aylık Segment Trendi](./Data-Types/images/question-8.png)
+  ![Soru 8 - Aylık Segment Trendi](./Data-Types/images/question_8.png)
 
 9. **WHERE ile Satır Bazlı Filtreleme (Soru 9)**
 - **Durum:** Tamamlandı. Gruplama öncesinde `WHERE SALES > 1000` uygulanarak yüksek tutarlı satırların şehirlere göre toplam satışları listelendi.
@@ -170,7 +170,7 @@ Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve 
 10. **HAVING ile Gruplama Sonrası Filtreleme (Soru 10)**
 - **Durum:** Tamamlandı. Şehirlere göre gruplama sonrası `HAVING SUM(SALES) > 100000 AND COUNT(DISTINCT CUSTOMER_ID) > 10` koşulu uygulanıp ciroya göre azalan sıralandı (100 bin barajını aşan ilk 5 şehir listelendi).
 
-  ![Soru 10 - HAVING Filtresi](./Data-Types/images/question-10.png)
+  ![Soru 10 - HAVING Filtresi](./Data-Types/images/question_10.png)
 
 ### 🛠 Teknoloji Yığını ve Araçlar
 
