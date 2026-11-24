@@ -12,7 +12,7 @@ A relational SQL practice set built with **Microsoft SQL Server (SSMS)** using *
 
 ### 📂 Queries & Output Overview
 
-* **Relational Query Script (`Joins-GroupBy.sql`)**: Covers eight progressive exercises ranging from single-table `SELECT` / `WHERE` filtering and legacy `WHERE`-clause multi-table joins to column/table aliases, `DISTINCT`, `COUNT(DISTINCT ...)`, `GROUP BY` with `HAVING`, explicit `INNER JOIN ... ON ...`, and `INSERT` / `TRUNCATE` statements.
+* **Relational Query Script (`joins-groupby.sql`)**: Covers eight progressive exercises ranging from single-table `SELECT` / `WHERE` filtering and legacy `WHERE`-clause multi-table joins to column/table aliases, `DISTINCT`, `COUNT(DISTINCT ...)`, `GROUP BY` with `HAVING`, explicit `INNER JOIN ... ON ...`, and `INSERT` / `TRUNCATE` statements.
 
 * **Multi-Table Join Result (`question_3.png`)**: Displays joined user, contact, address, city (`SEHIR`), district (`ILCE`), sub-region (`SEMT`), and postal code (`POSTAKODU`) fields ordered by `U.USERNAME_`.
 
@@ -67,7 +67,7 @@ Bu çalışma, **Microsoft SQL Server (SSMS)** üzerinde **T-SQL** kullanılarak
 
 ### 📂 Sorgular ve Çıktı Özeti
 
-* **İlişkisel Sorgu Betiği (`Joins-GroupBy.sql`)**: Tek tablo `SELECT` / `WHERE` filtreleme ve klasik `WHERE` birleştirmelerinden başlayarak sütun/tablo takma adları (`ALIAS`), `DISTINCT`, `COUNT(DISTINCT ...)`, `GROUP BY` ile `HAVING`, açık `INNER JOIN ... ON ...` ve `INSERT` / `TRUNCATE` ifadelerine uzanan sekiz aşamalı alıştırmayı içerir.
+* **İlişkisel Sorgu Betiği (`joins-groupby.sql`)**: Tek tablo `SELECT` / `WHERE` filtreleme ve klasik `WHERE` birleştirmelerinden başlayarak sütun/tablo takma adları (`ALIAS`), `DISTINCT`, `COUNT(DISTINCT ...)`, `GROUP BY` ile `HAVING`, açık `INNER JOIN ... ON ...` ve `INSERT` / `TRUNCATE` ifadelerine uzanan sekiz aşamalı alıştırmayı içerir.
 
 * **Çoklu Tablo Birleştirme Çıktısı (`question_3.png`)**: `U.USERNAME_` ile sıralanmış kullanıcı, iletişim, adres, şehir (`SEHIR`), ilçe (`ILCE`), semt (`SEMT`) ve posta kodu (`POSTAKODU`) alanlarını gösterir.
 
