@@ -145,4 +145,3 @@ Bu çalışma, **Microsoft SQL Server (SSMS)** üzerinde **T-SQL** kullanılarak
 - **Ortam:** SQL Server Management Studio (SSMS)
 - **Sorgu Dili:** T-SQL
 - **Versiyon Kontrolü:** Git, GitHub
-```[cite: 8]
