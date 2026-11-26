@@ -8,7 +8,7 @@
 
 ## <a id="english"></a>🇬🇧 English
 
-This repository contains structured SQL exercises, data manipulation practices, and relational database management projects built with Microsoft SQL Server (SSMS) using T-SQL, focused on developing robust backend data skills.
+<!-- This repository contains structured SQL exercises, data manipulation practices, and relational database management projects built with Microsoft SQL Server (SSMS) using T-SQL, focused on developing robust backend data skills. -->
 
 <!-- ### 📂 Repository Structure
 
@@ -96,7 +96,7 @@ Below is the structured overview of the practical SQL tasks completed in this se
 
 ## <a id="türkçe"></a>🇹🇷 Türkçe
 
-Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmiş yapılandırılmış SQL egzersizleri, veri manipülasyon pratikleri ve ilişkisel veritabanı yönetim projeleri içermekte olup, sağlam backend veri becerileri geliştirmeyi amaçlamaktadır.
+<!-- Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmiş yapılandırılmış SQL egzersizleri, veri manipülasyon pratikleri ve ilişkisel veritabanı yönetim projeleri içermekte olup, sağlam backend veri becerileri geliştirmeyi amaçlamaktadır. -->
 
 <!-- ### 📂 Depo Yapısı
 
