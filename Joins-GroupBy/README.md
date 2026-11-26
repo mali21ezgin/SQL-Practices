@@ -8,7 +8,7 @@
 
 ## <a id="english"></a>🇬🇧 English
 
-A relational SQL practice set built with **Microsoft SQL Server (SSMS)** using **T-SQL**, focused on querying across six interconnected location and user tables (`USERS`, `ADDRESS`, `COUNTRIES`, `CITIES`, `TOWNS`, `DISTRICTS`) through `WHERE` joins, explicit `INNER JOIN ... ON ...`, `DISTINCT`, `GROUP BY`, `HAVING`, and `INSERT` / `TRUNCATE` operations.
+A relational SQL practice set built with **Microsoft SQL Server (SSMS)** using **T-SQL**, focused on querying across six interconnected location and user tables (`USERS`, `ADDRESS`, `COUNTRIES`, `CITIES`, `TOWNS`, `DISTRICTS`) through `WHERE` joins, explicit `INNER JOIN ... ON ...`, `DISTINCT`, `GROUP BY`, `HAVING`, and `INSERT` / `TRUNCATE` operations. The dataset used in these queries is sourced from **BTK Akademi**'s **"Uygulamalarla SQL Öğreniyorum"** course, taught by **Ömer Faruk Çolakoğlu**.
 
 ### 📂 Queries & Output Overview
 
@@ -63,7 +63,7 @@ A relational SQL practice set built with **Microsoft SQL Server (SSMS)** using *
 
 ## <a id="türkçe"></a>🇹🇷 Türkçe
 
-Bu çalışma, **Microsoft SQL Server (SSMS)** üzerinde **T-SQL** kullanılarak geliştirilmiş ilişkisel SQL sorgu pratiklerini kapsar; altı bağlantılı kullanıcı ve konum tablosu (`USERS`, `ADDRESS`, `COUNTRIES`, `CITIES`, `TOWNS`, `DISTRICTS`) üzerinde `WHERE` ile birleştirme, açık `INNER JOIN ... ON ...`, `DISTINCT`, `GROUP BY`, `HAVING` ve `INSERT` / `TRUNCATE` işlemlerini uygular.
+Bu çalışma, **Microsoft SQL Server (SSMS)** üzerinde **T-SQL** kullanılarak geliştirilmiş ilişkisel SQL sorgu pratiklerini kapsar; altı bağlantılı kullanıcı ve konum tablosu (`USERS`, `ADDRESS`, `COUNTRIES`, `CITIES`, `TOWNS`, `DISTRICTS`) üzerinde `WHERE` ile birleştirme, açık `INNER JOIN ... ON ...`, `DISTINCT`, `GROUP BY`, `HAVING` ve `INSERT` / `TRUNCATE` işlemlerini uygular. Sorgularda kullanılan veri seti, **BTK Akademi** bünyesinde **Ömer Faruk Çolakoğlu** tarafından verilen **"Uygulamalarla SQL Öğreniyorum"** eğitiminden alınmıştır.
 
 ### 📂 Sorgular ve Çıktı Özeti
 
