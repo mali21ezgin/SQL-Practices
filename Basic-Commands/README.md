@@ -10,9 +10,9 @@
 
 This repository contains structured SQL exercises, data manipulation practices, and relational database management projects built with Microsoft SQL Server (SSMS) using T-SQL, focused on developing robust backend data skills.
 
-### 📂 Repository Structure
+<!-- ### 📂 Repository Structure
 
-* **`Day-04-Basic-Commands/`**: Fundamental DML operations including database creation (`CREATE DATABASE`, `USE`), table design with `IDENTITY` primary keys, `INSERT`, `UPDATE`, `DELETE`, and `TRUNCATE` operations, alongside conditional filtering (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), distinct records (`DISTINCT`), and sorting (`ORDER BY`, `TOP / PERCENT`).
+* **`Day-04-Basic-Commands/`**: Fundamental DML operations including database creation (`CREATE DATABASE`, `USE`), table design with `IDENTITY` primary keys, `INSERT`, `UPDATE`, `DELETE`, and `TRUNCATE` operations, alongside conditional filtering (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), distinct records (`DISTINCT`), and sorting (`ORDER BY`, `TOP / PERCENT`). -->
 
 ### 📝 Project Solutions & Evaluation Guide
 
@@ -50,9 +50,9 @@ Below is the structured overview of the practical SQL tasks completed in this se
 
 Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmiş yapılandırılmış SQL egzersizleri, veri manipülasyon pratikleri ve ilişkisel veritabanı yönetim projeleri içermekte olup, sağlam backend veri becerileri geliştirmeyi amaçlamaktadır.
 
-### 📂 Depo Yapısı
+<!-- ### 📂 Depo Yapısı
 
-* **`Day-04-Basic-Commands/`**: Veritabanı oluşturma (`CREATE DATABASE`, `USE`), `IDENTITY` birincil anahtarları ile tablo tasarımı, `INSERT`, `UPDATE`, `DELETE` ve `TRUNCATE` işlemlerini içeren temel DML operasyonları; koşullu filtreleme (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), tekilleştirme (`DISTINCT`) ve sıralama (`ORDER BY`, `TOP / PERCENT`) çalışmaları.
+* **`Day-04-Basic-Commands/`**: Veritabanı oluşturma (`CREATE DATABASE`, `USE`), `IDENTITY` birincil anahtarları ile tablo tasarımı, `INSERT`, `UPDATE`, `DELETE` ve `TRUNCATE` işlemlerini içeren temel DML operasyonları; koşullu filtreleme (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), tekilleştirme (`DISTINCT`) ve sıralama (`ORDER BY`, `TOP / PERCENT`) çalışmaları. -->
 
 ### 📝 Proje Çözümleri ve Değerlendirme Rehberi
 
