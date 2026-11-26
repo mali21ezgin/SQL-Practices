@@ -10,16 +10,16 @@
 
 This repository contains structured SQL exercises, data manipulation practices, and relational database management projects built with Microsoft SQL Server (SSMS) using T-SQL, focused on developing robust backend data skills.
 
-### 📂 Repository Structure
+<!-- ### 📂 Repository Structure
 
 - **`Day-04-Basic-Commands/`**: Fundamental DML operations including database creation (`CREATE DATABASE`, `USE`), table design with `IDENTITY` primary keys, `INSERT`, `UPDATE`, `DELETE`, and `TRUNCATE` operations, alongside conditional filtering (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), distinct records (`DISTINCT`), and sorting (`ORDER BY`, `TOP / PERCENT`).
-- **`Data-Types/`**: Superstore Sales & Operations Analysis project using the [Kaggle Sales Forecasting Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (`train.csv`, 9,800 rows; not included in the repository) ingested into SQL Server (`ETRADE3.dbo.RAW_SUPERSTORE`) via Python (`pandas`, `SQLAlchemy`, `pyodbc`) with `app.py` and queried via `data-types.sql`, covering `CONVERT` date parsing, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP`, and `WHERE` vs. `HAVING` filtering.
+- **`Data-Types/`**: Superstore Sales & Operations Analysis project using the [Kaggle Sales Forecasting Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (`train.csv`, 9,800 rows; not included in the repository) ingested into SQL Server (`ETRADE3.dbo.RAW_SUPERSTORE`) via Python (`pandas`, `SQLAlchemy`, `pyodbc`) with `app.py` and queried via `data-types.sql`, covering `CONVERT` date parsing, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP`, and `WHERE` vs. `HAVING` filtering. -->
 
 ### 📝 Project Solutions & Evaluation Guide
 
 Below is the structured overview of the practical SQL tasks completed in this section, along with technical assessments:
 
-#### Day-04-Basic-Commands
+<!-- #### Day-04-Basic-Commands -->
 
 1. **Table Creation & Data Insertion (INSERT)**
   - **Status:** Excellent. Successfully created the `ETRADE2` database and `CUSTOMERS` table using proper data types. Adhered to the core rule by omitting the `ID` field during `INSERT` statements, allowing the `IDENTITY(1,1)` constraint to handle auto-incrementing safely. Date formats and string literals were structured correctly.
@@ -98,16 +98,16 @@ Below is the structured overview of the practical SQL tasks completed in this se
 
 Bu repo, T-SQL kullanılarak Microsoft SQL Server (SSMS) üzerinde geliştirilmiş yapılandırılmış SQL egzersizleri, veri manipülasyon pratikleri ve ilişkisel veritabanı yönetim projeleri içermekte olup, sağlam backend veri becerileri geliştirmeyi amaçlamaktadır.
 
-### 📂 Depo Yapısı
+<!-- ### 📂 Depo Yapısı
 
 - **`Day-04-Basic-Commands/`**: Veritabanı oluşturma (`CREATE DATABASE`, `USE`), `IDENTITY` birincil anahtarları ile tablo tasarımı, `INSERT`, `UPDATE`, `DELETE` ve `TRUNCATE` işlemlerini içeren temel DML operasyonları; koşullu filtreleme (`WHERE`, `BETWEEN`, `LIKE`, `IN`, `AND`, `OR`), tekilleştirme (`DISTINCT`) ve sıralama (`ORDER BY`, `TOP / PERCENT`) çalışmaları.
-- **`Data-Types/`**: [Kaggle Sales Forecasting Veri Seti](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (`train.csv`, 9.800 satır; repoda yer almaz) kullanılarak hazırlanan Superstore Satış ve Operasyon Analizi projesi; `app.py` (`pandas`, `SQLAlchemy`, `pyodbc`) ile verilerin SQL Server'a (`ETRADE3.dbo.RAW_SUPERSTORE`) aktarılması, `data-types.sql` sorgu dosyası ve `CONVERT`, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP` ile `WHERE` / `HAVING` sorgularını kapsar.
+- **`Data-Types/`**: [Kaggle Sales Forecasting Veri Seti](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (`train.csv`, 9.800 satır; repoda yer almaz) kullanılarak hazırlanan Superstore Satış ve Operasyon Analizi projesi; `app.py` (`pandas`, `SQLAlchemy`, `pyodbc`) ile verilerin SQL Server'a (`ETRADE3.dbo.RAW_SUPERSTORE`) aktarılması, `data-types.sql` sorgu dosyası ve `CONVERT`, `DATEPART`, `DATEDIFF`, `GROUP BY`, `COUNT(DISTINCT ...)`, `TOP` ile `WHERE` / `HAVING` sorgularını kapsar. -->
 
 ### 📝 Proje Çözümleri ve Değerlendirme Rehberi
 
 Bu bölümde tamamlanan pratik SQL görevlerinin yapılandırılmış özeti ve teknik değerlendirmeleri aşağıdadır:
 
-#### Day-04-Basic-Commands
+<!-- #### Day-04-Basic-Commands -->
 
 1. **Tablo Oluşturma ve Veri Ekleme (INSERT)**
   - **Durum:** Mükemmel. `ETRADE2` veritabanı ve uygun veri tipleriyle `CUSTOMERS` tablosu kuruldu. `INSERT` işlemlerinde `ID` alanı dışarıda bırakılarak `IDENTITY(1,1)` kuralına tam uyum sağlandı. Tarih formatları ve metinsel ifadeler hatasız işlendi.
